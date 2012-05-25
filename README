@@ -1,0 +1,13 @@
+Use:
+Python ftpbackup.py --host=yourhost --user=yourftpuser --pass=yourftppass --dir=\
+
+For example:
+python ftpbackup.py --host=example.com --user=hello --pass=mypass --dir=\
+
+This Program creates a backup of your ftp.
+
+Args:
+--host= Specify your ftp host
+--user= Specify your ftp user
+--pass= Specify your ftp pass
+--dir= Specify your dir (this function copy ALL, if you copy all ftp mirror use "\")
